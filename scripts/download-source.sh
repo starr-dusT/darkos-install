@@ -4,6 +4,9 @@
 
 build="$1"
 
+# Clean clone directory
+rm -rf "$build/arkos4clone"
+
 tag=$(curl -fsSL https://api.github.com/repos/lcdyk0517/arkos4clone/releases/latest | jq -r .tag_name)
 mkdir -p "$build/arkos4clone"
 curl -L "https://github.com/lcdyk0517/arkos4clone/archive/refs/tags/$tag.tar.gz" \

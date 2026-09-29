@@ -8,7 +8,7 @@ screen="$3"
 repo="lcdyk0517/arkos4clone"
 
 ## Clean build directory
-rm -rf build
+rm -rf "$build/image"
 
 ## Download image
 mkdir -p "$build/image"
