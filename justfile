@@ -10,6 +10,6 @@ copy-config clear="false":
     #!/usr/bin/env bash
     roms=$(sudo find /run/media/ -type d -name "EASYROMS")
     if [[ clear -eq "true" ]]; then
-        find . -maxdepth 1 -type d ! -name "$roms" ! -name "tools" ! -name "themes" -exec rm -rf {} +
+        find "$roms" -maxdepth 1 -type d ! -name "tools" ! -name "themes" -exec rm -rf {} +
     fi
     rsync -avh files/EASYROMS/* "$roms"
