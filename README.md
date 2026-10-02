@@ -37,6 +37,7 @@ xz -dk <combined archive>
 
 10. Set misc settings:
     - `UI Settings -> Select desired theme`
+    - `UI Settings -> Game Loading Image Mode -> None`
     - `ArkOS4Clone Settings -> Power LED -> Above 60% Blue`
     - `Advanced Settings -> Timezone -> America/Los_Angeles`
     
