@@ -33,19 +33,33 @@ xz -dk <combined archive>
 
 8. Connect console to Wifi and perform initial setup of Grout. Create token for console [here](https://romm.tstarr.us/client-api-tokens). When prompted create directories for relevant systems. Make sure to register device for save sync in `Settings -> Save Sync`.
 
-9. Open Retroarch and adjust save settings: `Settings -> Saving -> Sort Saves into Folders by Core Name -> OFF` then save with `ArkOS -> Configuration File -> Save Current Configuration`
+9. Open Retroarch and settings: 
+    - `Settings -> Saving -> Sort Saves into Folders by Core Name -> OFF` 
+    - `Settings -> Saving -> Save State Thumbnails -> ON`
+    - `Settings -> Saving -> Increment Save State Index Automatically -> ON`
+    - `Settings -> User Interface -> Show Advanced Settings -> On`
+    - `Settings -> User Interface -> Menu Item Visibility -> Quick Menu -> Show Save Core Overrides -> On`
+    - `Settings -> User Interface -> Menu Item Visibility -> Quick Menu -> Show Save Game Overrides -> On`
+    - Save with `ArkOS -> Configuration File -> Save Current Configuration`
 
 10. Set misc settings:
     - `UI Settings -> Select desired theme`
     - `UI Settings -> Game Loading Image Mode -> None`
+    - `UI Settings -> Start On System -> Favorites`
     - `ArkOS4Clone Settings -> Power LED -> Above 60% Blue`
     - `Advanced Settings -> Timezone -> America/Los_Angeles`
-    
-11. Download roms and bios files with Grout
 
-12. Scrape Artwork with Scraper:
+11. Set per system overrides:
+    - GBA
+        - Open GBA game
+        - `Quick Menu -> Settings -> Video -> Aspect Ratio -> Core provided`
+        - `Quick Menu -> Overrides -> Save Content Directory Overrides`
+    
+12. Download roms and bios files with Grout
+
+13. Scrape Artwork with Scraper:
     - `Scraper -> Username`
     - `Scraper -> Password`
     - `Scraper -> Scrape Now -> Start`
         
-13. Enjoy!
+14. Enjoy!
