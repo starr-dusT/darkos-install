@@ -54,6 +54,11 @@ xz -dk <combined archive>
         - Open GBA game
         - `Quick Menu -> Settings -> Video -> Aspect Ratio -> Core provided`
         - `Quick Menu -> Overrides -> Save Content Directory Overrides`
+    - GB
+        - Open GB game
+        - `Quick Menu -> Settings -> Video -> Aspect Ratio -> Core provided`
+        - `Quick Menu -> Overrides -> Save Content Directory Overrides`
+        - `Quick Menu -> Core Options -> Manage Core Options -> GB Colorization -> Internal` 
     
 12. Download roms and bios files with Grout
 
