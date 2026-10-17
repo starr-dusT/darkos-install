@@ -37,6 +37,8 @@ xz -dk <combined archive>
     - `Settings -> Saving -> Sort Saves into Folders by Core Name -> OFF` 
     - `Settings -> Saving -> Save State Thumbnails -> ON`
     - `Settings -> Saving -> Increment Save State Index Automatically -> ON`
+    - `Settings -> Saving -> Auto Save State -> ON`
+    - `Settings -> Saving -> Auto Load State -> ON`
     - `Settings -> User Interface -> Show Advanced Settings -> On`
     - `Settings -> User Interface -> Menu Item Visibility -> Quick Menu -> Show Save Core Overrides -> On`
     - `Settings -> User Interface -> Menu Item Visibility -> Quick Menu -> Show Save Game Overrides -> On`
