@@ -1,10 +1,10 @@
 # dArkOS Install
 
-Instructions and configs for dArkOS install on my devices. Primarily the A10mini V4.
+Instructions and configs for dArkOS or ArkOS install on my devices. Primarily the A10mini V4.
 
 ## Install
 
-1. Download latest dArkOS4Clone release from [here](https://github.com/lcdyk0517/arkos4clone/releases)
+1. Download latest dArkOS4Clone/ArkOSClone release from [here](https://github.com/lcdyk0517/arkos4clone/releases)
 
 2. Extract multi-part archive to the image file with the following commands:
 ```
@@ -12,7 +12,7 @@ Instructions and configs for dArkOS install on my devices. Primarily the A10mini
 xz -dk <combined archive>   
 ```
 
-3. Flash dArkOS4Clone image to sd card with Gnome Disks or similar
+3. Flash dArkOS4Clone/ArkOSClone image to sd card with Gnome Disks or similar
 
 4. Copy the following to the root of the BOOT partition:
     - Contents of `consoles/<console>`
